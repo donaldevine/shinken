@@ -1,0 +1,70 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @task.title %>
+</p>
+
+<p>
+  <b>Iteration:</b>
+  <%= @task.iteration %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @task.state %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @task.description %>
+</p>
+
+<p>
+  <b>Reason:</b>
+  <%= @task.reason %>
+</p>
+
+<p>
+  <b>Area:</b>
+  <%= @task.area %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @task.priority %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @task.state %>
+</p>
+
+<p>
+  <b>Datefound:</b>
+  <%= @task.datefound %>
+</p>
+
+<p>
+  <b>Remainingwork:</b>
+  <%= @task.remainingwork %>
+</p>
+
+<p>
+  <b>Blocked:</b>
+  <%= @task.blocked %>
+</p>
+
+<p>
+  <b>Blockedreason:</b>
+  <%= @task.blockedreason %>
+</p>
+
+<p>
+  <b>Activitytype:</b>
+  <%= @task.activitytype %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

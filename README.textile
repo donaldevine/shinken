@@ -1,0 +1,58 @@
+h1. Shinken
+
+Online Agile Project Management
+
+h2. Ruby on Rails
+
+Ruby version: 1.9.3
+Rails version: 3.2.15
+
+
+h2. Database
+
+This application uses SQLite with ActiveRecord.
+
+
+h2. Development
+
+Template Engine: ERB
+Testing Framework: RSpec and Factory Girl and Cucumber
+Front-end Framework: Twitter Bootstrap 2.3 (Sass)
+Form Builder: SimpleForm
+Authentication: Devise
+Authorization: CanCan
+Membership: Stripe
+
+
+h2. Email
+
+The application is configured to send email using a Gmail account.
+
+
+h2. Getting Started
+
+Light 'em if you got 'em!
+
+
+h2. Documentation and Support
+
+This is the only documentation.
+
+
+h2. Known Issues
+
+It works on my machine
+
+
+
+h2. Contributing
+
+Just me
+
+h2. Credits
+
+Donal Devine
+
+h2. License
+
+Donal Devine 2013

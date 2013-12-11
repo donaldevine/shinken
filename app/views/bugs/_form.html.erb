@@ -1,0 +1,19 @@
+<%= simple_form_for(@bug) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :title %>
+    <%= f.input :iteration %>
+    <%= f.input :state %>
+    <%= f.input :description %>
+    <%= f.input :reason %>
+    <%= f.input :startdate %>
+    <%= f.input :completedate %>
+    <%= f.input :effort %>
+    <%= f.input :priority %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

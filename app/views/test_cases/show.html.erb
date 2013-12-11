@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @test_case.title %>
+</p>
+
+<p>
+  <b>Iteration:</b>
+  <%= @test_case.iteration %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @test_case.state %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @test_case.description %>
+</p>
+
+<p>
+  <b>Reason:</b>
+  <%= @test_case.reason %>
+</p>
+
+<p>
+  <b>Area:</b>
+  <%= @test_case.area %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @test_case.priority %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @test_case.state %>
+</p>
+
+<p>
+  <b>Automationstatus:</b>
+  <%= @test_case.automationstatus %>
+</p>
+
+<p>
+  <b>Activitytype:</b>
+  <%= @test_case.activitytype %>
+</p>
+
+
+<%= link_to 'Edit', edit_test_case_path(@test_case) %> |
+<%= link_to 'Back', test_cases_path %>

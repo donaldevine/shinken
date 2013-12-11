@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @bug.title %>
+</p>
+
+<p>
+  <b>Iteration:</b>
+  <%= @bug.iteration %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @bug.state %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @bug.description %>
+</p>
+
+<p>
+  <b>Reason:</b>
+  <%= @bug.reason %>
+</p>
+
+<p>
+  <b>Startdate:</b>
+  <%= @bug.startdate %>
+</p>
+
+<p>
+  <b>Completedate:</b>
+  <%= @bug.completedate %>
+</p>
+
+<p>
+  <b>Effort:</b>
+  <%= @bug.effort %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @bug.priority %>
+</p>
+
+
+<%= link_to 'Edit', edit_bug_path(@bug) %> |
+<%= link_to 'Back', bugs_path %>

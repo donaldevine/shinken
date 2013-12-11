@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @change.title %>
+</p>
+
+<p>
+  <b>Iteration:</b>
+  <%= @change.iteration %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @change.state %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @change.description %>
+</p>
+
+<p>
+  <b>Stackrank:</b>
+  <%= @change.stackrank %>
+</p>
+
+<p>
+  <b>Area:</b>
+  <%= @change.area %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @change.priority %>
+</p>
+
+<p>
+  <b>Risk:</b>
+  <%= @change.risk %>
+</p>
+
+<p>
+  <b>Automationstatus:</b>
+  <%= @change.automationstatus %>
+</p>
+
+
+<%= link_to 'Edit', edit_change_path(@change) %> |
+<%= link_to 'Back', changes_path %>

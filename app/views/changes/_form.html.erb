@@ -1,0 +1,19 @@
+<%= simple_form_for(@change) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :title %>
+    <%= f.input :iteration %>
+    <%= f.input :state %>
+    <%= f.input :description %>
+    <%= f.input :stackrank %>
+    <%= f.input :area %>
+    <%= f.input :priority %>
+    <%= f.input :risk %>
+    <%= f.input :automationstatus %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

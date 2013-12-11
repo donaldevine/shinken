@@ -1,0 +1,39 @@
+<h1>Listing changes</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Iteration</th>
+    <th>State</th>
+    <th>Description</th>
+    <th>Stackrank</th>
+    <th>Area</th>
+    <th>Priority</th>
+    <th>Risk</th>
+    <th>Automationstatus</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @changes.each do |change| %>
+  <tr>
+    <td><%= change.title %></td>
+    <td><%= change.iteration %></td>
+    <td><%= change.state %></td>
+    <td><%= change.description %></td>
+    <td><%= change.stackrank %></td>
+    <td><%= change.area %></td>
+    <td><%= change.priority %></td>
+    <td><%= change.risk %></td>
+    <td><%= change.automationstatus %></td>
+    <td><%= link_to 'Show', change %></td>
+    <td><%= link_to 'Edit', edit_change_path(change) %></td>
+    <td><%= link_to 'Destroy', change, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Change', new_change_path %>

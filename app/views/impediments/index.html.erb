@@ -1,0 +1,39 @@
+<h1>Listing impediments</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Iteration</th>
+    <th>State</th>
+    <th>Description</th>
+    <th>Reason</th>
+    <th>Datefound</th>
+    <th>Effort</th>
+    <th>Priority</th>
+    <th>State</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @impediments.each do |impediment| %>
+  <tr>
+    <td><%= impediment.title %></td>
+    <td><%= impediment.iteration %></td>
+    <td><%= impediment.state %></td>
+    <td><%= impediment.description %></td>
+    <td><%= impediment.reason %></td>
+    <td><%= impediment.datefound %></td>
+    <td><%= impediment.effort %></td>
+    <td><%= impediment.priority %></td>
+    <td><%= impediment.state %></td>
+    <td><%= link_to 'Show', impediment %></td>
+    <td><%= link_to 'Edit', edit_impediment_path(impediment) %></td>
+    <td><%= link_to 'Destroy', impediment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Impediment', new_impediment_path %>

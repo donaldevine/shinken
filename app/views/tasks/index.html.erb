@@ -1,0 +1,47 @@
+<h1>Listing tasks</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Iteration</th>
+    <th>State</th>
+    <th>Description</th>
+    <th>Reason</th>
+    <th>Area</th>
+    <th>Priority</th>
+    <th>State</th>
+    <th>Datefound</th>
+    <th>Remainingwork</th>
+    <th>Blocked</th>
+    <th>Blockedreason</th>
+    <th>Activitytype</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tasks.each do |task| %>
+  <tr>
+    <td><%= task.title %></td>
+    <td><%= task.iteration %></td>
+    <td><%= task.state %></td>
+    <td><%= task.description %></td>
+    <td><%= task.reason %></td>
+    <td><%= task.area %></td>
+    <td><%= task.priority %></td>
+    <td><%= task.state %></td>
+    <td><%= task.datefound %></td>
+    <td><%= task.remainingwork %></td>
+    <td><%= task.blocked %></td>
+    <td><%= task.blockedreason %></td>
+    <td><%= task.activitytype %></td>
+    <td><%= link_to 'Show', task %></td>
+    <td><%= link_to 'Edit', edit_task_path(task) %></td>
+    <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Task', new_task_path %>

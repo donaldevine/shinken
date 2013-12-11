@@ -1,0 +1,93 @@
+.plans{
+  text-align: center;
+}
+.featured{
+  -webkit-transform:scale(1.15);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+}
+.plan{
+  background-color: #111575;
+}
+.plan.featured-plan{
+  background-color: #CCAB00;
+}
+.plan h2{
+  line-height: 100px;
+  color: #fff;
+}
+.well .heading-container {
+  height: 53px;
+}
+.well .heading-container .heading-icon {
+  height: 40px; padding-right: 15px; float: left;
+}
+.well .heading-container .section-heading {
+  color: rgb(136, 136, 136); font-family: Helvetica; font-size: 26px;
+}
+.well .heading-container .section-subheading {
+  color: rgb(136, 136, 136); padding-left: 45px; font-family: Helvetica;
+}
+.well {
+  margin: 18px 0px; border: 0px currentColor;
+  text-align: center;
+}
+.well:hover {
+  background: rgb(255, 255, 255); transition:0.2s linear; cursor: pointer; box-shadow: 0px 0px 30px rgba(0,0,0,0.67); animation-duration: 2s; animation-timing-function: ease-in-out; animation-fill-mode: forwards; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -webkit-transform: scale(1.05); -moz-transform: scale(1.05);
+}
+.featured.pricehover {
+  background: rgb(255, 255, 255); transition:0.2s linear; cursor: pointer; box-shadow: 0px 0px 30px rgba(0,0,0,0.67); animation-duration: 2s; animation-timing-function: ease-in-out; animation-fill-mode: forwards; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -webkit-transform: scale(1.15); -moz-transform: scale(1.15);
+}
+.pricehover:hover .price {
+  background: rgb(0, 204, 0); border-color: rgb(0, 204, 0);
+}
+.price {
+  margin: 0px auto; border: 3px solid rgb(51, 51, 51); width: 100px; height: 100px; background-color: rgb(51, 51, 51); -webkit-border-radius: 75px; -moz-border-radius: 75px;
+}
+.featuredprice.price {
+  margin: 0px auto; border: 3px solid rgb(0, 204, 0); width: 100px; height: 100px; background-color: rgb(0, 204, 0); -webkit-border-radius: 75px; -moz-border-radius: 75px;
+}
+.price h2 {
+  text-align: center; color: rgb(255, 255, 255); line-height: 100px; font-size: 24px;
+}
+ul.pricing li {
+  border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(229, 229, 229); margin: 18px 10px; padding-bottom: 10px;
+}
+.wellDark {
+  padding: 19px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.05); text-align: center; color: rgb(239, 239, 239); margin-bottom: 20px; min-height: 20px; box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05); background-color: rgb(6, 6, 9); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.wellDark blockquote {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.wellDark ul.pricing li {
+  border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(153, 153, 153); margin: 18px 10px; padding-bottom: 10px;
+}
+.Darkpricehover:hover {
+  background: rgb(204, 204, 204); transition:0.2s linear; color: rgb(0, 0, 0); cursor: pointer; box-shadow: 0px 0px 30px rgba(0,0,0,0.67); animation-duration: 2s; animation-timing-function: ease-in-out; animation-fill-mode: forwards; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -webkit-transform: scale(1.05); -moz-transform: scale(1.05);
+}
+.Darkpricehover:hover .price {
+  background: rgb(0, 153, 255); border-color: rgb(0, 153, 255);
+}
+.Darkpricehover:hover h3 {
+  color: rgb(0, 0, 0);
+}
+.featured.Darkpricehover {
+  background: rgb(204, 204, 204); border: 0px currentColor; transition:0.2s linear; color: rgb(0, 0, 0); cursor: pointer; box-shadow: 0px 0px 30px rgba(0,0,0,0.67); animation-duration: 2s; animation-timing-function: ease-in-out; animation-fill-mode: forwards; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67); -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -webkit-transform: scale(1.15); -moz-transform: scale(1.15);
+}
+.featured.Darkpricehover h3 {
+  color: rgb(0, 0, 0);
+}
+.wellDark .price {
+  margin: 0px auto; border: 3px solid rgb(239, 239, 239); width: 100px; height: 100px; color: rgb(153, 153, 153); background-color: rgb(239, 239, 239); -webkit-border-radius: 75px; -moz-border-radius: 75px;
+}
+.wellDark .featuredprice.price {
+  margin: 0px auto; border: 3px solid rgb(0, 153, 255); width: 100px; height: 100px; background-color: rgb(0, 153, 255); -webkit-border-radius: 75px; -moz-border-radius: 75px;
+}
+.wellDark .price h2 {
+  text-align: center; color: rgb(32, 32, 32); line-height: 100px;
+}
+.wellDark h3 {
+  color: rgb(255, 255, 255);
+}
+.dark {
+  background: rgb(0, 0, 0);
+}
